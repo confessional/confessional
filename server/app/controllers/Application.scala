@@ -8,7 +8,7 @@ import models._
 
 object Application extends Controller {
 
-  lazy val fakeTree: TreeNode = BuildTree.create(answers) match {
+  lazy val fakeTree: TreeNode = BuildTree.create(Data.answers.right.get) match {
     case tn :TreeNode => tn
     case _ => throw new RuntimeException("Failllure")
   }
