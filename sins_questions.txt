@@ -1,171 +1,170 @@
-1 Did you only worship the One True God?
-2 Did you, or do you, hate God?
-3 Did you give greater love to anything other than God?
-4 Did you put faith in Occult Ideas, or practices?
-5 Did you put your faith in Astrology?
-6 Did you put your faith in New Age Philosophies?
-7 Did you put your faith in Eastern Philosophies?
-8 Did you put your faith in Witchcraft?
-9 Did you put your faith in Atheism?
-10 Did you put your faith in Agnosticism?
-11 Did you put your faith in Sorcery?
-12 Did you put your faith in Ouija Boards?
-13 Did you put your faith in Seance?
-14 Did you put your faith in Black Magic?
-15 Did you put your faith in Voodo?
-16 Did you put your faith in Palm Reading?
-17 Did you put your faith in Tarot Cards?
-18 Did you put your faith in Divination?
-19 Did you put your faith in Hypnotism?
-20 Did you put your faith in Superstitions?
-21 Did you put your faith in Good Luck Charms?
-22 Did you put your faith in Horoscopes?
-23 Did you put your faith in Paganism or other False Worship?
-24 Did you join a Schismatic Group?
-25 Did you join the Freemasons (Masons)?
-26 Did you join, contribute to, or sympathize with another secret society?
-27 Did you join, contribute to, or sympathize with Planned Parenthood?
-28 Did you join, contribute to, or sympathize with the ACLU?
-29 Did you join, contribute to, or sympathize with Gay Rights Groups?
-30 Did you join, contribute to, or sympathize with Pro-Choice Groups?
-31 Did you join, contribute to, or sympathize with Pro-Abortion Groups?
-32 Did you join, contribute to, or sympathize with the Communist Party?
-33 Did you join, contribute to, or sympathize with the Socialist Party?
-34 Did you deny the Faith of the Catholic Church?
-35 Did you despair of God’s Mercy?
-36 Did you Fail to Pray to God for an extended period of time?
-37 Did you receive illicit Non-Emergency ‘General Absolution‘?
-38 Are you guilty of Apostasy (Declaring to leave the Church)?
-39 Did you fail to receive Holy Communion once per year, (Easter Duty)?
-40 Did you fail to meet you Yearly Obligation of Confession, (Easter Duty)?
-41 Were you married by a Justice-of the-Peace (without Dispensation)?
-42 Were you married by a minister (without Dispensation)?
-43 Did you commit Presumption (commit a Mortal Sin, presuming Absolution)?
-44 Were you Confirmed (Sacrament of Confirmation) in a state of Mortal Sin?
-45 Were you Married (Sacrament of Matrimony) in a state of Mortal Sin?
-46 Did you commit Simony (Buying or Selling Spiritual Objects)?
-47 Did you use God‘s name ONLY reverently?
-48 Did you use God‘s name as a Curse?
-49 Did you commit Blasphemy (words of Hatred or Defiance towards God)?
-50 Did you seriously slander or insult a Sacred Person or Object?
-51 Did you miss Sunday Mass or a Holy Day of Obligation without good reason?
-52 Did you receive Holy Communion in a state of Mortal Sin (SACRILEGE)?
-53 Did you Fail to Fast from Food and Drink for 1 hour before Communion?
-54 Did you Fail to Receive Holy Communion during Easter time?
-55 Did you Desecrate the Holy Eucharist (SACRILEGE)?
-56 Did you do unnecessary compensated Labor on Sunday, for a long time?
-57 Did you Require employees to work on Sundays in non-essential occupations?
-58 Did you intentionally Fail to Fast on Ash Wednesday or Good Friday?
-59 Did you intentionally Eat Meat on the Fridays of Lent or on Ash Wednesday?
-60 Did you fail to Love, Help, or Obey your parents?
-61 Did you ever seriously wish Death or Evil upon your parents?
-62 Did you seriously Disobey or Disrespect other supervisors or authorities?
-63 Did you seriously Fail to Care for your aged parents?
-64 Did you Fail to Carry-out the Last Will of a deceased parent?
-65 Did you seriously Neglect the religious education and morals of your children?
-66 Did you physically or mentally Abuse or seriously Neglect your children?
-67 Did you Fail to Baptize your children within a few months of their birth?
-68 Did you seriously Neglect the Duties of you state in life?
-69 Did you kill anyone?
-70 Did you willfully Fail to Bury the body, or the ashes of the dead?
-71 Did you Seriously Entertain Thoughts of Suicide?
-72 Did you Attempt, or Intend, to Commit Suicide?
-73 Did you fail to eat properly and become anorexic, through Vanity?
-74 Did you take or sell Illegal Drugs?
-75 Did you Abuse Alcohol (Willful Drunkenness)?
-76 Did you Loose Your Temper to an extreme [Deadly Sin-- ANGER]?
-77 Did you unjustly Injure another physically?
-78 Did you unjustly Injure another verbally?
-79 Did you willfully engage in an Unjust Lawsuit?
-80 Did you intentionally place temptation before a weak person?
-81 Are you guilty of Bigotry (hatred of other races, nationalities, or religions)?
-82 Are you guilty of Pride or Arrogance [Deadly Sin-- PRIDE]?
-83 Did you promote, advise, or have an Abortion?
-84 Did you have a ‘Selective Reduction‘ of babies in the womb?
-85 Did you commit Self-Mutilation (Cutting, etc.)?
-86 Do you have excessive Tattoos?
-87 Do you have excessive Body Piercing?
-88 Do you have a piercing of the nipples or sexual organs?
-89 Do you refuse reasonable ordinary hospital care, that could save your life?
-90 Did you promote or involve yourself in Euthanasia?
-91 Did you commit Adultery (by having sex with a married person)?
-92 Did you commit Fornication (by having sex before marriage)?
-93 Have you engaged in, promoted, or used Prostitution?
-94 Did you commit Rape (forced sexual contact with another person)?
-95 Did you commit Incest (sex with a family member, near relative, adopted family member, or in-law, of the same or opposite sex)?
-96 Did you commit Pedophilia (sexual touching or act, with a minor)?
-97 Have you viewed Pornography?
-98 Have you read Sexually Explicit Materials?
-99 Do you have a sexual Fetish?
-100 Did you dwell on Impure Thoughts for the purpose or Arousal?
-101 Did you have impure or violent sexual fantasies, asleep or awake?
-102 Have you watched Impure Television, Movies, or DVD‘s?
-103 Have you Dressed Immodestly, or Acted to Arouse another, not your spouse?
-104 Have you kissed or touched another to cause Arousal, who’s not your spouse ?
-105 Have you allowed another to Arouse you passionately, who‘s not your spouse?
-106 Have you caused sexual climax, other than Intercourse, even with your spouse?
-107 Did you commit Onanism (Withdrawal for Contraceptive purposes)?
-108 Did you have Oral Sex?
-109 Did you guilty of Dressing Immodestly, in a flagrant way?
-110 Did you have sex with Animals (Bestiality)?
-111 Did you Masturbate?
-112 Did you engage in other Impure Acts with yourself?
-113 Did you engage in Homosexual Acts?
-114 Did you have Anal Sex, or other degrading sexual practices?
-115 Did you use a Contraceptive device (condom, diaphragm, or intrauterine device)?
-116 Did you have a Surgical Sterilization (Vasectomy, or Tubes Tied, etc.)?
-117 Did you practice the Rhythm Method of Birth Control, even with your spouse?
-118 Did you practice Natural Family Planning, (NFP) even with your spouse?
-119 Did you practice Natural Fertility Regulation, (NFR) even with your spouse?
-120 Did you practice Natural Birth Regulation, (NBR) even with your spouse?
-121 Did you engage in In-Vitro Fertilization?
-122 Did you engage in Artificial Insemination?
-123 Did you engage in Surrogate Motherhood?
-124 Did you engage in Fertility Testing involving Immoral Acts (Masturbation)?
-125 Did you engage in or support Human Cloning?
-126 Are you guilty of Polygamy (many wives)?
-127 Are you guilty of Polyandry (many husbands)?
-128 Did you Cohabitate (live together) before Marriage?
-129 Did you Lust in the Heart ('I would if I could') [Deadly Sin-- LUST]
-130 Are you guilty of Wife Swapping (or ‘Swinging‘)?
-131 Are you guilty of Transvestitism (Cross Dressing)?
-132 Did you love sex (or food, etc.), excessively?
-133 Have you Stolen a large sum or money, or a valuable item?
-134 Have you willfully Failed to Make Restitution for a stolen or destroyed item?
-135 Have you Defrauded workers of their just wage?
-136 Have you Received, Concealed, Bought, or Sold Stolen Property?
-137 Have you willfully Defaced or Destroyed another‘s property?
-138 Have you Stolen something Consecrated to God, or from a Holy Place?
-139 Have you Gambled to Excess and harmed your life or your family‘s life?
-140 Have you Stolen your employer‘s Time, by serious failure to do your work?
-141 Have you padded your Expense or Per Diem Account?
-142 Have you Taken Advantage to the poor, simple-minded, or the inexperienced?
-143 Have you Denied Help to the poor, needy, or destitute, even though capable?
-144 Have you been Seriously Cruel to animals?
-145 Have you Enslaved anyone?
-146 Have you Defrauded creditors?
-147 Have you Pirated computer software, or bootlegged movies or DVD‘s?
-148 Have you Violated copyright laws?
-149 Have you Bribed anyone, or accepted a Bribe?
-150 Are you guilty of Excessive Waste or Expense?
-151 Have you Blackmailed anyone?
-152 Have you committed Forgery?
-153 Are you guilty of Fraud, Embezzlement, or Ponzi Schemes?
-154 Have you Evaded or Cheated on your Tax Return?
-155 Are you guilty of Price Fixing or Collusion?
-156 Did you Bear False Witness [not under oath] against anyone?
-157 Did you bear false witness [under oath is Perjury] against anyone?
-158 Did you seriously Wish Evil upon another person?
-159 Did you Withhold a Serious Sin (SACRILEGE), or lie in Confession?
-160 Have you told a large or premeditated Lie?
-161 Have you engaged in Calumny (telling the faults of someone, that are untrue)?
-162 Did you seriously Wish Evil upon another person?
-163 Have you engaged in Detraction (telling the true gossip faults, unnecessarily)?
-164 Have you Violated the Confidence of someone without good reason?
-165 Are you an Accomplice to another‘s Grave Sin?
-166 Did you Lust after someone else’s wife?
-167 Did you willfully Lust after another?
-168 Are you guilty of willful Divorce?
-169 Are you guilty of willful Desertion?
-170 Did you Seriously Covet your neighbor‘s possessions?
-171 Are you guilty of Serious Avarice or Greed?
+1 Did you, or do you, hate God?
+2 Did you give greater love to anything other than God?
+3 Did you put faith in Occult Ideas, or practices?
+4 Did you put your faith in Astrology?
+5 Did you put your faith in New Age Philosophies?
+6 Did you put your faith in Eastern Philosophies?
+7 Did you put your faith in Witchcraft?
+8 Did you put your faith in Atheism?
+9 Did you put your faith in Agnosticism?
+10 Did you put your faith in Sorcery?
+11 Did you put your faith in Ouija Boards?
+12 Did you put your faith in Seance?
+13 Did you put your faith in Black Magic?
+14 Did you put your faith in Voodo?
+15 Did you put your faith in Palm Reading?
+16 Did you put your faith in Tarot Cards?
+17 Did you put your faith in Divination?
+18 Did you put your faith in Hypnotism?
+19 Did you put your faith in Superstitions?
+20 Did you put your faith in Good Luck Charms?
+21 Did you put your faith in Horoscopes?
+22 Did you put your faith in Paganism or other False Worship?
+23 Did you join a Schismatic Group?
+24 Did you join the Freemasons (Masons)?
+25 Did you join, contribute to, or sympathize with another secret society?
+26 Did you join, contribute to, or sympathize with Planned Parenthood?
+27 Did you join, contribute to, or sympathize with the ACLU?
+28 Did you join, contribute to, or sympathize with Gay Rights Groups?
+29 Did you join, contribute to, or sympathize with Pro-Choice Groups?
+30 Did you join, contribute to, or sympathize with Pro-Abortion Groups?
+31 Did you join, contribute to, or sympathize with the Communist Party?
+32 Did you join, contribute to, or sympathize with the Socialist Party?
+33 Did you deny the Faith of the Catholic Church?
+34 Did you despair of God’s Mercy?
+35 Did you Fail to Pray to God for an extended period of time?
+36 Did you receive illicit Non-Emergency ‘General Absolution‘?
+37 Are you guilty of Apostasy (Declaring to leave the Church)?
+38 Did you fail to receive Holy Communion once per year, (Easter Duty)?
+39 Did you fail to meet you Yearly Obligation of Confession, (Easter Duty)?
+40 Were you married by a Justice-of the-Peace (without Dispensation)?
+41 Were you married by a minister (without Dispensation)?
+42 Did you commit Presumption (commit a Mortal Sin, presuming Absolution)?
+43 Were you Confirmed (Sacrament of Confirmation) in a state of Mortal Sin?
+44 Were you Married (Sacrament of Matrimony) in a state of Mortal Sin?
+45 Did you commit Simony (Buying or Selling Spiritual Objects)?
+46 Did you use God‘s name ONLY reverently?
+47 Did you use God‘s name as a Curse?
+48 Did you commit Blasphemy (words of Hatred or Defiance towards God)?
+49 Did you seriously slander or insult a Sacred Person or Object?
+50 Did you miss Sunday Mass or a Holy Day of Obligation without good reason?
+51 Did you receive Holy Communion in a state of Mortal Sin (SACRILEGE)?
+52 Did you Fail to Fast from Food and Drink for 1 hour before Communion?
+53 Did you Fail to Receive Holy Communion during Easter time?
+54 Did you Desecrate the Holy Eucharist (SACRILEGE)?
+55 Did you do unnecessary compensated Labor on Sunday, for a long time?
+56 Did you Require employees to work on Sundays in non-essential occupations?
+57 Did you intentionally Fail to Fast on Ash Wednesday or Good Friday?
+58 Did you intentionally Eat Meat on the Fridays of Lent or on Ash Wednesday?
+59 Did you fail to Love, Help, or Obey your parents?
+60 Did you ever seriously wish Death or Evil upon your parents?
+61 Did you seriously Disobey or Disrespect other supervisors or authorities?
+62 Did you seriously Fail to Care for your aged parents?
+63 Did you Fail to Carry-out the Last Will of a deceased parent?
+64 Did you seriously Neglect the religious education and morals of your children?
+65 Did you physically or mentally Abuse or seriously Neglect your children?
+66 Did you Fail to Baptize your children within a few months of their birth?
+67 Did you seriously Neglect the Duties of you state in life?
+68 Did you kill anyone?
+69 Did you willfully Fail to Bury the body, or the ashes of the dead?
+70 Did you Seriously Entertain Thoughts of Suicide?
+71 Did you Attempt, or Intend, to Commit Suicide?
+72 Did you fail to eat properly and become anorexic, through Vanity?
+73 Did you take or sell Illegal Drugs?
+74 Did you Abuse Alcohol (Willful Drunkenness)?
+75 Did you Loose Your Temper to an extreme [Deadly Sin-- ANGER]?
+76 Did you unjustly Injure another physically?
+77 Did you unjustly Injure another verbally?
+78 Did you willfully engage in an Unjust Lawsuit?
+79 Did you intentionally place temptation before a weak person?
+80 Are you guilty of Bigotry (hatred of other races, nationalities, or religions)?
+81 Are you guilty of Pride or Arrogance [Deadly Sin-- PRIDE]?
+82 Did you promote, advise, or have an Abortion?
+83 Did you have a ‘Selective Reduction‘ of babies in the womb?
+84 Did you commit Self-Mutilation (Cutting, etc.)?
+85 Do you have excessive Tattoos?
+86 Do you have excessive Body Piercing?
+87 Do you have a piercing of the nipples or sexual organs?
+88 Do you refuse reasonable ordinary hospital care, that could save your life?
+89 Did you promote or involve yourself in Euthanasia?
+90 Did you commit Adultery (by having sex with a married person)?
+91 Did you commit Fornication (by having sex before marriage)?
+92 Have you engaged in, promoted, or used Prostitution?
+93 Did you commit Rape (forced sexual contact with another person)?
+94 Did you commit Incest (sex with a family member, near relative, adopted family member, or in-law, of the same or opposite sex)?
+95 Did you commit Pedophilia (sexual touching or act, with a minor)?
+96 Have you viewed Pornography?
+97 Have you read Sexually Explicit Materials?
+98 Do you have a sexual Fetish?
+99 Did you dwell on Impure Thoughts for the purpose or Arousal?
+100 Did you have impure or violent sexual fantasies, asleep or awake?
+101 Have you watched Impure Television, Movies, or DVD‘s?
+102 Have you Dressed Immodestly, or Acted to Arouse another, not your spouse?
+103 Have you kissed or touched another to cause Arousal, who’s not your spouse ?
+104 Have you allowed another to Arouse you passionately, who‘s not your spouse?
+105 Have you caused sexual climax, other than Intercourse, even with your spouse?
+106 Did you commit Onanism (Withdrawal for Contraceptive purposes)?
+107 Did you have Oral Sex?
+108 Did you guilty of Dressing Immodestly, in a flagrant way?
+109 Did you have sex with Animals (Bestiality)?
+110 Did you Masturbate?
+111 Did you engage in other Impure Acts with yourself?
+112 Did you engage in Homosexual Acts?
+113 Did you have Anal Sex, or other degrading sexual practices?
+114 Did you use a Contraceptive device (condom, diaphragm, or intrauterine device)?
+115 Did you have a Surgical Sterilization (Vasectomy, or Tubes Tied, etc.)?
+116 Did you practice the Rhythm Method of Birth Control, even with your spouse?
+117 Did you practice Natural Family Planning, (NFP) even with your spouse?
+118 Did you practice Natural Fertility Regulation, (NFR) even with your spouse?
+119 Did you practice Natural Birth Regulation, (NBR) even with your spouse?
+120 Did you engage in In-Vitro Fertilization?
+121 Did you engage in Artificial Insemination?
+122 Did you engage in Surrogate Motherhood?
+123 Did you engage in Fertility Testing involving Immoral Acts (Masturbation)?
+124 Did you engage in or support Human Cloning?
+125 Are you guilty of Polygamy (many wives)?
+126 Are you guilty of Polyandry (many husbands)?
+127 Did you Cohabitate (live together) before Marriage?
+128 Did you Lust in the Heart ('I would if I could') [Deadly Sin-- LUST]
+129 Are you guilty of Wife Swapping (or ‘Swinging‘)?
+130 Are you guilty of Transvestitism (Cross Dressing)?
+131 Did you love sex (or food, etc.), excessively?
+132 Have you Stolen a large sum or money, or a valuable item?
+133 Have you willfully Failed to Make Restitution for a stolen or destroyed item?
+134 Have you Defrauded workers of their just wage?
+135 Have you Received, Concealed, Bought, or Sold Stolen Property?
+136 Have you willfully Defaced or Destroyed another‘s property?
+137 Have you Stolen something Consecrated to God, or from a Holy Place?
+138 Have you Gambled to Excess and harmed your life or your family‘s life?
+139 Have you Stolen your employer‘s Time, by serious failure to do your work?
+140 Have you padded your Expense or Per Diem Account?
+141 Have you Taken Advantage to the poor, simple-minded, or the inexperienced?
+142 Have you Denied Help to the poor, needy, or destitute, even though capable?
+143 Have you been Seriously Cruel to animals?
+144 Have you Enslaved anyone?
+145 Have you Defrauded creditors?
+146 Have you Pirated computer software, or bootlegged movies or DVD‘s?
+147 Have you Violated copyright laws?
+148 Have you Bribed anyone, or accepted a Bribe?
+149 Are you guilty of Excessive Waste or Expense?
+150 Have you Blackmailed anyone?
+151 Have you committed Forgery?
+152 Are you guilty of Fraud, Embezzlement, or Ponzi Schemes?
+153 Have you Evaded or Cheated on your Tax Return?
+154 Are you guilty of Price Fixing or Collusion?
+155 Did you Bear False Witness [not under oath] against anyone?
+156 Did you bear false witness [under oath is Perjury] against anyone?
+157 Did you seriously Wish Evil upon another person?
+158 Did you Withhold a Serious Sin (SACRILEGE), or lie in Confession?
+159 Have you told a large or premeditated Lie?
+160 Have you engaged in Calumny (telling the faults of someone, that are untrue)?
+161 Did you seriously Wish Evil upon another person?
+162 Have you engaged in Detraction (telling the true gossip faults, unnecessarily)?
+163 Have you Violated the Confidence of someone without good reason?
+164 Are you an Accomplice to another‘s Grave Sin?
+165 Did you Lust after someone else’s wife?
+166 Did you willfully Lust after another?
+167 Are you guilty of willful Divorce?
+168 Are you guilty of willful Desertion?
+169 Did you Seriously Covet your neighbor‘s possessions?
+170 Are you guilty of Serious Avarice or Greed?
