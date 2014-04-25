@@ -35,6 +35,11 @@ class Corpus
     @associations[index][1] unless index.nil?
   end
 
+  def write_associations()
+    content = @associations.map { |x| "#{x[0]} #{x[1].join(' ')}" }.join('\n')
+    File.open(@association_file, 'w') { |f| f.puts content }
+  end
+
   def run()
     puts "#{@sins.count} sins, #{@questions.count} questions"
 
@@ -47,6 +52,10 @@ class Corpus
       q_ids.each { |q_id|
         puts "- #{q_id} #{question_by_id(q_id)} YES!"
       } unless q_ids.nil?
+      new_q_ids = gets
+      index = @associations.index { |x| x[0] == id } || @associations.count
+      @associations[index] = [id, new_q_ids.split]
+      write_associations()
     }
   end
 end
