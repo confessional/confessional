@@ -3,9 +3,8 @@ $(function() {
   var uuid = null;
 
   var fadeIn = function() {
-    $('.content').fadeIn(8000);
+    $('.content').fadeIn(6000);
   };
-  fadeIn();
 
   var getQuestion = function(response) {
     var url = (uuid === null) ? '/start' : ('/next/' + uuid + '/' + response);
@@ -61,7 +60,10 @@ $(function() {
     setTimeout(function() {
       priestTalk('Hello my son, why have you come here?');
 
-      setTimeout(function() { getQuestion(); }, 8000);
+      setTimeout(function() {
+        getQuestion();
+        fadeIn();
+      }, 8000);
 
     }, 5000);
 
