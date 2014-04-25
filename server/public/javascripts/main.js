@@ -11,7 +11,9 @@ $(function() {
         getQuestion();
       } else {
         uuid = data.uuid;
+        $('.questions').show();
         $('#question').html(data.question.text);
+        priestTalk(data.question.text);
       }
     });
   };
@@ -20,6 +22,22 @@ $(function() {
     getQuestion($(this).data('val'));
   });
 
-  getQuestion();
+  var priestTalk = window.priestTalk = function(text) {
+    speechObj.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Bruce'; })[0];
+    speechObj.text = text;
+    speechSynthesis.speak(speechObj);
+  };
+
+
+  var speechObj = new SpeechSynthesisUtterance();
+  speechObj.text = 'Hello, I am sister Janet, are you here to confess?';
+  speechSynthesis.speak(speechObj);
+  setTimeout(function() {
+    speechObj.text = 'Ok! Great! I call the father';
+    speechSynthesis.speak(speechObj);
+
+    getQuestion();
+  }, 5000);
+
 
 });
