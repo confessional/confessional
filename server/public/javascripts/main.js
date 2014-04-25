@@ -18,15 +18,16 @@ $(function() {
       if (data.text) {
         $('#sins').append('<li>' + data.text + '</li>');
         setTimeout(function() {
-          priestTalk('Your sin is:' + data.text);
-          uuid = null;
-          setTimeout(function() {
-            priestTalk('Do you have something else to confess?');
+          priestTalk('Your sin is:' + data.text, function() {
+            uuid = null;
             setTimeout(function() {
-              getQuestion();
-              fadeIn();
-            }, 3000);
-          }, 6000);
+              priestTalk('Do you have something else to confess?');
+              setTimeout(function() {
+                getQuestion();
+                fadeIn();
+              }, 6000);
+            }, 2000);
+          });
         }, 3000);
       } else {
         uuid = data.uuid;
@@ -40,12 +41,13 @@ $(function() {
     getQuestion($(this).data('val'));
   });
 
-  var priestTalk = window.priestTalk = function(text) {
+  var priestTalk = window.priestTalk = function(text, callback) {
     speechObj.voice = speechSynthesis.getVoices().filter(function(voice) {
       return voice.name == 'Bruce';
     })[0];
     speechObj.text = text;
     speechSynthesis.speak(speechObj);
+    callback && callback();
   };
 
 
@@ -63,7 +65,7 @@ $(function() {
 
     }, 5000);
 
-  }, 5000);
+  }, 7000);
 
 
 });
