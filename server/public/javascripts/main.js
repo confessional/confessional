@@ -21,8 +21,11 @@ $(function() {
           priestTalk('Your sin is:' + data.text);
           uuid = null;
           setTimeout(function() {
-            getQuestion();
-            fadeIn();
+            priestTalk('Do you have something else to confess?');
+            setTimeout(function() {
+              getQuestion();
+              fadeIn();
+            }, 3000);
           }, 6000);
         }, 3000);
       } else {
@@ -56,7 +59,7 @@ $(function() {
     setTimeout(function() {
       priestTalk('Hello my son, why have you come here?');
 
-      setTimeout(function() { getQuestion(); }, 10000);
+      setTimeout(function() { getQuestion(); }, 8000);
 
     }, 5000);
 
