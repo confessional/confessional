@@ -5,6 +5,7 @@ $(function() {
   var fadeIn = function() {
     $('.content').fadeIn(8000);
   };
+  fadeIn();
 
   var getQuestion = function(response) {
     var url = (uuid === null) ? '/start' : ('/next/' + uuid + '/' + response);
@@ -21,7 +22,6 @@ $(function() {
         fadeIn();
       } else {
         uuid = data.uuid;
-        $('.questions').show();
         $('#question').html(data.question.text);
         priestTalk(data.question.text);
       }
