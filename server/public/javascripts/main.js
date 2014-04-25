@@ -1,25 +1,25 @@
-$(function(){
+$(function() {
 
-  var recupQuestion = function(url){
-    $.get(url, function(data){
-      $('#question').html(data.question);
-      $('#question').attr('data-uuid').html(data.uuid);
-    } )
+  var uuid = null;
+
+  var getQuestion = function(response) {
+    var url = (uuid === null) ? '/start' : ('/next/' + uuid + '/' + response);
+    $.get(url, function(data) {
+      if (data.text) {
+        $('#sins').append('<li>' + data.text + '</li>');
+        uuid = null;
+        getQuestion();
+      } else {
+        uuid = data.uuid;
+        $('#question').html(data.question.text);
+      }
+    });
   };
 
-//  recupQuestion('/start');
+  $('.btn').click(function() {
+    getQuestion($(this).data('val'));
+  });
 
-  $('.btn').click(function(e){
-    var $this = $(this);
-    var response = $this.attr('href');
-    console.log(response);
-    var uuid = $('#question').attr('data-uuid');
-    console.log(uuid);
-    //Envoi de données
-    //recupQuestion('/next/'+uuid+'/'+response);
-    e.preventDefault();
-  })
+  getQuestion();
 
-
-
-})
+});

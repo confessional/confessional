@@ -47,9 +47,9 @@ object Application extends Controller {
   }
 
   val q1 = Question(1, "Hello")
-  val q2 = Question(2, "Hello")
-  val q3 = Question(3, "Hello")
-  val q4 = Question(4, "Hello")
+  val q2 = Question(2, "Hello2")
+  val q3 = Question(3, "Hello3")
+  val q4 = Question(4, "Hello4")
   val q5 = Question(5, "Hello")
 
   val s1 = Sin(1, "Sinnnnn")
