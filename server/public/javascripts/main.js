@@ -59,6 +59,7 @@ $(function() {
 
     setTimeout(function() {
       priestTalk('Hello my son, why have you come here?');
+      $('#fond').fadeIn();
 
       setTimeout(function() {
         getQuestion();
