@@ -17,9 +17,14 @@ $(function() {
       }
       if (data.text) {
         $('#sins').append('<li>' + data.text + '</li>');
-        uuid = null;
-        getQuestion();
-        fadeIn();
+        setTimeout(function() {
+          priestTalk('Your sin is:' + data.text);
+          uuid = null;
+          setTimeout(function() {
+            getQuestion();
+            fadeIn();
+          }, 6000);
+        }, 3000);
       } else {
         uuid = data.uuid;
         $('#question').html(data.question.text);
@@ -48,7 +53,13 @@ $(function() {
     speechObj.text = 'Ok! Great! I call the father';
     speechSynthesis.speak(speechObj);
 
-    getQuestion();
+    setTimeout(function() {
+      priestTalk('Hello my son, why have you come here?');
+
+      setTimeout(function() { getQuestion(); }, 10000);
+
+    }, 5000);
+
   }, 5000);
 
 
