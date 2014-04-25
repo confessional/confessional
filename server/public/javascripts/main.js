@@ -2,15 +2,23 @@ $(function() {
 
   var uuid = null;
 
-  $('.content').fadeIn(8000);
+  var fadeIn = function() {
+    $('.content').fadeIn(8000);
+  };
 
   var getQuestion = function(response) {
     var url = (uuid === null) ? '/start' : ('/next/' + uuid + '/' + response);
     $.get(url, function(data) {
+      if (data == 'FAIL') {
+        uuid = null;
+        getQuestion();
+        fadeIn();
+      }
       if (data.text) {
         $('#sins').append('<li>' + data.text + '</li>');
         uuid = null;
         getQuestion();
+        fadeIn();
       } else {
         uuid = data.uuid;
         $('.questions').show();
@@ -25,7 +33,9 @@ $(function() {
   });
 
   var priestTalk = window.priestTalk = function(text) {
-    speechObj.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Bruce'; })[0];
+    speechObj.voice = speechSynthesis.getVoices().filter(function(voice) {
+      return voice.name == 'Bruce';
+    })[0];
     speechObj.text = text;
     speechSynthesis.speak(speechObj);
   };
