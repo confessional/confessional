@@ -2,6 +2,8 @@ $(function() {
 
   var uuid = null;
 
+  $('.content').fadeIn(8000);
+
   var getQuestion = function(response) {
     var url = (uuid === null) ? '/start' : ('/next/' + uuid + '/' + response);
     $.get(url, function(data) {

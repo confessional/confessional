@@ -139,8 +139,10 @@ body {
 .questions {
   padding-left: 80px;
 }
+.questions .content {
+  display: none;
+}
 h2 {
-  padding-top: 300px;
   display: block;
   font-weight: normal;
   font-style: italic;
