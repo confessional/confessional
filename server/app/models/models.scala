@@ -1,43 +1,19 @@
 package models
 
-case class Question(id: Integer, text: String)
+import play.api.libs.json._
 
-case class Sin(id: Integer, text: String)
+case class Question(id: Int, text: String)
 
+object Question {
+  implicit val readers = Json.reads[Question]
+  implicit val writers = Json.writes[Question]
+}
 
-sealed trait PossibleAnswer
+case class Sin(id: Int, text: String)
 
-case object YES extends PossibleAnswer
-case object NO extends PossibleAnswer
-case object NC extends PossibleAnswer
+object Sin {
+  implicit val readers = Json.reads[Sin]
+  implicit val writers = Json.writes[Sin]
+}
 
 case class Answer(question: Question, sin: Sin, answer: PossibleAnswer)
-
-sealed trait TreeElement
-
-case class  TreeNode(uuid: String, question: Question, next: Map[PossibleAnswer, TreeElement]) extends TreeElement
-case class  TreeLeaf(sin: Sin) extends TreeElement
-case object TreeFail extends TreeElement
-
-object TreeNode {
-  def apply(question: Question, next: Map[PossibleAnswer, TreeElement]) = {
-    new TreeNode(java.util.UUID.randomUUID.toString, question, next)
-  }
-
-  def find(root: TreeNode, uuid: String): Option[TreeNode] = {
-    root.next.foldLeft[Option[TreeNode]](None){
-      case (None, (_, tn:TreeNode)) => if( tn.uuid == uuid ) Some(tn) else find(tn, uuid)
-      case (None, _)     => None
-      case (Some(tn), _) => Some(tn)
-    }
-  }
-
-  def next(root: TreeNode, uuid: String, pa: PossibleAnswer) = {
-    val te = for {
-      tn <- find(root, uuid)
-      te <- tn.next.get(pa)
-    } yield te
-
-    te.getOrElse(TreeFail)
-  }
-}

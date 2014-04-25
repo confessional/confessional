@@ -7,14 +7,15 @@ object BuildTree {
   type GR  = Map[Question, Map[PossibleAnswer, Seq[Sin]]]
   type PAS = Map[PossibleAnswer, Seq[Sin]]
 
-
   def create(answers: Seq[Answer]): TreeElement = {
-    val sinsCount = answers.map(_.sin).toSet.size
+    if( answers.nonEmpty ){
+      val sinsCount = answers.map(_.sin).toSet.size
 
-    val grouped = group(answers)
-    val question = extractQuestion(grouped, sinsCount)
+      val grouped = group(answers)
+      val question = extractQuestion(grouped, sinsCount)
 
-    TreeNode(question._1, toTreeNodes(answers, question._1, question._2) )
+      TreeNode.create(question._1, toTreeNodes(answers, question._1, question._2) )
+    } else TreeFail
   }
 
   def group(answers: Seq[Answer]): GR = {
@@ -47,14 +48,14 @@ object BuildTree {
       .head
   }
 
-  def toTreeNodes(answers: Seq[Answer], q: Question, pas: PAS) = {
+  def toTreeNodes(answers: Seq[Answer], q: Question, pas: PAS): Map[PossibleAnswer, TreeElement] = {
     pas.mapValues {
       case Nil        => TreeFail
       case Seq(sin)   => TreeLeaf(sin)
       case sins       => create(
         answers.filter { a => a.question != q && sins.contains(a.sin) }
       )
-    }
+    } + ( NC -> create(answers.filter { a => a.question != q }) )
   }
 
 }
