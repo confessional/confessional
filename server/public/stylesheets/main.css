@@ -1,0 +1,148 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+.post:after, .group:after, .wrapper:after, .site-header:after
+  visibility: hidden !important
+  display: block !important
+  content: "" !important
+  clear: both !important
+  height: 0 !important
+
+* html .group, *:first-child+html .group,
+* html .post, *:first-child+html .post,
+* html .wrapper, *:first-child+html .wrapper,
+* html .site-header, *:first-child+html .site-header
+  zoom: 1 !important
+
+/* apply a natural box layout model to all elements */
+* 
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+/* fin reset */
+html{
+    height: 100%;
+}
+
+body{
+    background: url('../images/bg_cure.jpg');
+     -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+background-attachment:fixed;
+  height: 100%;
+    font-family: 'Didot';
+  color:#fff;
+}
+
+.questions{
+    padding-left: 80px;
+}
+
+h2{
+    padding-top: 300px;
+    display: block;
+    font-weight: normal;
+    font-style: italic;
+    color: #FAE333;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+a.btn{
+    background: #FAE333;
+    display: inline-block;
+    height: 50px;
+    color: #333;
+    padding: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+a.btn.maybe{
+   background: #fff; 
+}
+
+#select_curiest{
+    display: block;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    right: 20%;
+    top: 0;
+    bottom: 0;
+}
+
+#select_curiest ul {
+    padding: 0;
+    margin: 0;
+}
+#select_curiest ul li{
+    padding: 0;
+    float: left;
+    display: block;
+    width: 150px;
+    background: blue;   
+    list-style: none;
+    height: 150px;
+}
