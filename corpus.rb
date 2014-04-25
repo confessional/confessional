@@ -14,20 +14,25 @@ class Corpus
       ids=l.split.map { |i| i.to_i }
       [ids.shift, ids]
     }
-    @sins = File.open(@sins_file).readlines.map { |l|
-      parts=l.split
-      [parts.shift.to_i, parts.join(' ').capitalize]
-    }
-    @questions = File.open(@questions_file).readlines.map { |l|
+  end
+
+  def read_questions()
+    File.open(@questions_file).readlines.map { |l|
       parts=l.split
       [parts.shift.to_i, parts.join(' ').capitalize]
     }
   end
 
+  def read_sins()
+    File.open(@sins_file).readlines.map { |l|
+      parts=l.split
+      [parts.shift.to_i, parts.join(' ').capitalize]
+    }
+  end
 
   def question_by_id(question_id)
-    index = @questions.index { |x| x[0] == question_id }
-    @questions[index][1] unless index.nil?
+    index = read_questions().index { |x| x[0] == question_id }
+    read_questions()[index][1] unless index.nil?
   end
 
   def sin_question_ids(sin_id)
@@ -41,9 +46,9 @@ class Corpus
   end
 
   def run()
-    puts "#{@sins.count} sins, #{@questions.count} questions"
+    puts "#{read_sins().count} sins, #{read_questions().count} questions"
 
-    @sins.each { |s|
+    read_sins().each { |s|
       puts "-------------------------------------------------"
       id=s[0]
       sin=s[1]
