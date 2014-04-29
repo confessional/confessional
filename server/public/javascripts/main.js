@@ -14,10 +14,10 @@ $(function() {
         getQuestion();
         fadeIn();
       }
-      if (data.text) {
-        $('#sins').append('<li>' + data.text + '</li>');
+      if( data.sin && data.sin.text) {
+        $('#sins').append('<li>' + data.sin.text + '</li>');
         setTimeout(function() {
-          priestTalk('Your sin is:' + data.text, function() {
+          priestTalk('Your sin is:' + data.sin.text, function() {
             uuid = null;
             setTimeout(function() {
               priestTalk('Do you have something else to confess?');

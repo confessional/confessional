@@ -4,8 +4,6 @@
 
 # Home page
 GET     /                           controllers.Application.index
-GET     /tree                       controllers.Application.tree
-
 
 GET     /start                      controllers.Application.start
 GET     /next/:uuid/:answer         controllers.Application.next(uuid: String, answer: String)

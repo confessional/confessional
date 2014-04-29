@@ -8,21 +8,12 @@ import models._
 
 object Application extends Controller {
 
-  lazy val fakeTree: TreeNode = BuildTree.create(Data.answers.right.get) match {
-    case tn :TreeNode => tn
-    case _ => throw new RuntimeException("Failllure")
-  }
-
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
   }
 
-  def tree = Action {
-    Ok( Json.toJson(fakeTree) )
-  }
-
   def start = Action {
-    Ok( Json.toJson( SimpleTreeNode(fakeTree.uuid, fakeTree.question)) )
+    Ok( Json.toJson(Tree.root) )
   }
 
   def next(uuid: String, answer: String) = Action{
@@ -33,16 +24,9 @@ object Application extends Controller {
       case _ => None
     }
 
-    (TreeElement.find(fakeTree, uuid), pa) match {
-      case (Some(tn), Some(pa) ) => {
-        val json = tn.next.get(pa) match {
-          case Some(TreeNode(uuid, q, _)) => Json.toJson(SimpleTreeNode(uuid, q) )
-          case Some(TreeLeaf(sin)) => Json.toJson(sin)
-          case _ => Json.toJson(TreeFail)
-        }
-        Ok(json)
-      }
-      case _ => BadRequest("Invalid node")
+    pa match {
+      case Some(pa) => Ok( Json.toJson(Tree.next(uuid, pa)) )
+      case _        => BadRequest("Invalid node")
     }
   }
 
